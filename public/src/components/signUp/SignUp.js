@@ -125,8 +125,9 @@ export default function SignUp(props) {
             margin="normal"
             required
             fullWidth
+            autoFocus
             id="name"
-            label="your name"
+            label="Your Name"
             name="name"
             autoComplete="name"
             // error={}
@@ -165,7 +166,7 @@ export default function SignUp(props) {
             required
             fullWidth
             name="conformPassword"
-            label="Conform Password"
+            label="Confirm Password"
             type="password"
             id="conformPassword"
             onChange={(e) => {
