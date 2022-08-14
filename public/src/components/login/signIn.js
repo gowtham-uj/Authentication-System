@@ -213,7 +213,6 @@ export default function SignIn(props) {
             label="Email Address"
             name="email"
             autoComplete="email"
-            autoFocus
             // error={}
             onChange={(e) => {
               setEmailValue(e.target.value);
@@ -252,7 +251,7 @@ export default function SignIn(props) {
             <NavLink to="/signup">Create account</NavLink>
           </Grid>
           <Grid item xs={6} sx={{ textAlign: "right" }}>
-            <NavLink to="/forgot-password">Forgot password</NavLink>
+            <NavLink to="/forgot-password">Forgot password ?</NavLink>
           </Grid>
         </Grid>
         <HrDivider />

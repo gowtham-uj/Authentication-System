@@ -129,7 +129,6 @@ export default function SignUp(props) {
             label="your name"
             name="name"
             autoComplete="name"
-            autoFocus
             // error={}
             onChange={(e) => {
               setNameValue(e.target.value);
@@ -143,7 +142,6 @@ export default function SignUp(props) {
             label="Email Address"
             name="email"
             autoComplete="email"
-            autoFocus
             // error={}
             onChange={(e) => {
               setEmailValue(e.target.value);

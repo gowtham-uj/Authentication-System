@@ -140,7 +140,6 @@ export default function ForgotPassword(props) {
             label="Email Address"
             name="email"
             autoComplete="email"
-            autoFocus
             // error={}
             onChange={(e) => {
               setEmailValue(e.target.value);

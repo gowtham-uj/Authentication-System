@@ -132,7 +132,6 @@ export default function MagicLogin(props) {
             label="Email Address"
             name="email"
             autoComplete="email"
-            autoFocus
             // error={}
             onChange={(e) => {
               setEmailValue(e.target.value);

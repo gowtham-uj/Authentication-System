@@ -167,7 +167,6 @@ function ResetPassword(props) {
             label="New Password"
             name="new-password"
             type="password"
-            autoFocus
             // error={}
             onChange={(e) => {
               setNewPasswordVal(e.target.value);
