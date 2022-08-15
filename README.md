@@ -1,6 +1,6 @@
 # Authentication-System
 
-##### Authentication system microservice
+Authentication system microservice
 
 This application is standalone authentication system that has backend functionalities built from scratch with node js and sql and with minimal frontend built with react js.
 
